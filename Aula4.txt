@@ -1,0 +1,94 @@
+    1  ls
+    2  ls-a
+    3  pwd
+    4  cd TOTI
+    5  mkdir Comandos
+    6  ls
+    7  cd Comandos/
+    8  clear
+    9  git config --global user.name 'Eliezka Garcia Soto'
+   10  git config --global user.email 'eliezkags@gmail.com'
+   11  git config user.name
+   12  cd Desktop/
+   13  mkdir Curso_Git
+   14  cd Curso_Git/
+   15  git config user.name
+   16  git init
+   17  git status
+   18  echo '#Aprendendo usar o Git' > readme.md
+   19  git status
+   20  git add readme.md
+   21  git status
+   22  git commit -m 'Commit inicial'
+   23  git status
+   24  echo '##Aula 1' >>readme.md
+   25  git status
+   26  echo 'Eliezka Garcia S' > participantes.txt
+   27  git status
+   28  git add .
+   29  git status
+   30  git restore --staged participantes.txt
+   31  git status
+   32  git add participantes.txt
+   33  git status
+   34  git restore --staged . 
+   35  git status
+   36  git commit -am 'Alteração no readme'
+   37  git status
+   38  git add participantes.txt
+   39  git status
+   40  git commit -m 'Adicionado participantes.txt'
+   41  history > Aula3.txt
+   42  git status
+   43  git add .
+   44  git commit -m 'Comandos da aula 3'
+   45  git log
+   46  git log
+   47  git log --pretty=oneline
+   48  git log --stat
+   49  git log -p
+   50  git status
+   51  touch teste
+   52  git add teste
+   53  git status
+   54  git commit -m 'Commit de teste'
+   55  git log
+   56  git reset --soft HEAD~
+   57  GIT LOG
+   58  git log
+   59  git status
+   60  git commit -m 'Commit de teste'
+   61  git log
+   62  git reset --hard HEAD~
+   63  git log
+   64  git status
+   65  git log --prety=oneline
+   66  git log --pretty=oneline
+   67  git checkout HEAD~~
+   68  git status
+   69  git log
+   70  ls
+   71  git checkout master
+   72  git log
+   73  git checkout HEAD~2
+   74  git log
+   75  git checkout HEAD~
+   76  git checkout master
+   77  clear
+   78  mkdir .vscode
+   79  touch conf.txt
+   80  mv conf.txt .vscode/
+   81  ls .vscode/
+   82  ls
+   83  ls -a
+   84  git status
+   85  echo '.vscode/' > .gitignore
+   86  git status
+   87  touch pessoal.conf
+   88  git status
+   89  echo 'pessoal.conf' >> .gitignore
+   90  git status
+   91  git add .gitignore
+   92  git commit -m 'Adicionado arquivo .gitignore'
+   93  git status
+   94  history > Aula4.txt
