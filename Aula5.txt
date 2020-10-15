@@ -1,0 +1,83 @@
+    1  ls
+    2  ls-a
+    3  pwd
+    4  cd TOTI
+    5  mkdir Comandos
+    6  ls
+    7  cd Comandos/
+    8  clear
+    9  git config --global user.name 'Eliezka Garcia Soto'
+   10  git config --global user.email 'eliezkags@gmail.com'
+   11  git config user.name
+   12  cd Desktop/
+   13  mkdir Curso_Git
+   14  cd Curso_Git/
+   15  git config user.name
+   16  git init
+   17  git status
+   18  echo '#Aprendendo usar o Git' > readme.md
+   19  git status
+   20  git add readme.md
+   21  git status
+   22  git commit -m 'Commit inicial'
+   23  git status
+   24  echo '##Aula 1' >>readme.md
+   25  git status
+   26  echo 'Eliezka Garcia S' > participantes.txt
+   27  git status
+   28  git add .
+   29  git status
+   30  git restore --staged participantes.txt
+   31  git status
+   32  git add participantes.txt
+   33  git status
+   34  git restore --staged . 
+   35  git status
+   36  git commit -am 'Alteração no readme'
+   37  git status
+   38  git add participantes.txt
+   39  git status
+   40  git commit -m 'Adicionado participantes.txt'
+   41  history > Aula3.txt
+   42  git status
+   43  git add .
+   44  git commit -m 'Comandos da aula 3'
+   45  git log
+   46  git branch
+   47  git checkout -b feature
+   48  git branch
+   49  touch Nova_feature
+   50  git status
+   51  git add Nova_feature
+   52  git commit -m 'Adicionando Nova feature'
+   53  git log
+   54  git checkout master
+   55  git status
+   56  git log
+   57  touch Continuando_master
+   58  git add Continuando_master
+   59  git commit -m 'Adicionando continuação na master'
+   60  git log
+   61  git checkout feature
+   62  git log
+   63  git checkout -b feature2 master
+   64  git log
+   65  git checkout -d feature2
+   66  git checkout feature2
+   67  git log
+   68  git branch -d feature2
+   69  git checkout master
+   70  git branch -d feature2
+   71  git log
+   72  git checkout feature2
+   73  clear
+   74  git checkout feature
+   75  git log --pretty=oneline --graph
+   76  git merge master
+   77  git log
+   78  git log --pretty=oneline --graph
+   79  git reset --hard HEAD~
+   80  git log --pretty=oneline --graph
+   81  git rebase master
+   82  git log --pretty=oneline --graph
+   83  history > Aula5.txt
